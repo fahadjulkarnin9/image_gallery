@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: cursive;
+}
+
+h1{
+    text-align: center;
+    color:crimson;
+    margin: 30px;
+}
+
+.gallery{
+   margin-left: 75px;
+}
+
+.gallery img{
+    
+    width: 230px;
+    padding: 5px;
+    transition: 1s;
+    filter: grayscale(100);
+}
+
+.gallery img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
